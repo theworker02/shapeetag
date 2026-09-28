@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/shapeetag",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Shape filesystem etag paths across POSIX and Windows conventions.",
+  "bin": {
+    "shapeetag": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/shapeetag.git"
+  },
+  "homepage": "https://theworker02.github.io/shapeetag/",
+  "keywords": [
+    "shape",
+    "etag",
+    "path",
+    "cli",
+    "toolkit"
+  ]
+}
